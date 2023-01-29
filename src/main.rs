@@ -7,7 +7,7 @@ use eframe::egui;
 fn main() {
     let options = eframe::NativeOptions::default();
     eframe::run_native(
-        "pdfbrowser",
+        "pdfwebbrowser",
         options,
         Box::new(|_cc| {
 
