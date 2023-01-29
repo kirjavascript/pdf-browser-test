@@ -1,0 +1,11 @@
+[package]
+name = "pdfbrowser"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+egui = "0.20.1"
+eframe = { version = "0.20.1", features = ["persistence"] }
+pdfium-render = { version = "0.7.27" }
+image = "*"
+egui_dock = "0.3"
