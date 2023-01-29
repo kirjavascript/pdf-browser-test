@@ -34,6 +34,7 @@ impl Tabs {
         });
     }
 }
+
 struct TabViewer<'a> {
     added_nodes: &'a mut Vec<NodeIndex>
 }
